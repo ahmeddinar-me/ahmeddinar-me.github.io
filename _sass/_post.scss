@@ -2,6 +2,9 @@
     display: none;
 }
 .page[post] {
+    hr{
+        margin: 8px 0;
+    }
     .label {
         margin-top: 16px;
         overflow: hidden;
@@ -29,6 +32,7 @@
     .left {
         background: #fff;
         padding: 20px;
+        width: 80%;
         ul {
             >h2 {
                 color: #333;
@@ -59,6 +63,34 @@
         //         box-shadow: 0 0 4px 0px rgba(0,0,0,0.15);
         //     }
         // }
+
+        .reference-list{
+            li{
+                font-size: 12px;
+            }
+        }
+        .list-normal{
+            li{
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .right{
+        width: 20%;
+        ul{
+          li{
+            a{
+                font-size: 13px;
+                
+                color: #1c976e;
+                strong{
+                    font-weight: 400;
+                }
+            }
+          }
+        }
     }
 }
 @media screen and (max-width: 770px) {
