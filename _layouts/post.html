@@ -39,6 +39,22 @@ layout: default
             </div>
         </div>
 
+
+        {% if page.share %}
+            <div class="ssk-group ssk-xs ssk-grayscale">
+                <a href="" class="ssk ssk-facebook"></a>
+                <a href="" class="ssk ssk-twitter"></a>
+                <a href="" class="ssk ssk-google-plus"></a>
+                <a href="" class="ssk ssk-linkedin"></a>
+            </div>
+
+            <script type="text/javascript" src="/js/social-share-kit.min.js"></script>
+            <script>
+            SocialShareKit.init();
+            </script>
+        {% endif %}
+
+
         <h2 id="comments">Comments</h2>
         {% include comments.html %}
 
