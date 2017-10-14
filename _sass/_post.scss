@@ -32,12 +32,24 @@
     }
     
     .ssk-group{
-        margin-top: 20px;
+        margin-top: 20px !important;
         a{
-            color: #fff;
+            color: #fff !important;
         }
         .ssk{
-            margin-right: 8px;
+            margin-right: 8px !important;
+        }
+        .ssk-facebook:hover{
+            background-color: #3B5998 !important;
+        }
+        .ssk-google-plus:hover{
+            background-color: #EA4335 !important;
+        }
+        .ssk-twitter:hover{
+            background-color: #1DA1F2 !important;
+        }
+        .ssk-linkedin:hover{
+            background-color: #1c87bd !important;
         }
     }
 
