@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "কম্পিউটারের আদ্যোপান্ত"
-date:   2017-11-21 00:00:01
+date: 2017-11-22 00:10:00 +0880
 author: Ahmed Dinar
 categories: Development
 tags: cpu ram logic-gate half-adder flip-flop full-adder alu control-unit kernel os compiler machine-code
